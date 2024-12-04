@@ -1943,7 +1943,7 @@ img {
 }
 
 .header-style-1 .navbar-brand img, .header-style-2 .navbar-brand img {
-  max-width: 80px;
+  max-width: 120px;
 }
 
 @media screen and (min-width: 992px) {
@@ -6864,4 +6864,22 @@ img {
 
 .site-footer {
   background-color: #473b69;
+}
+
+.header-style-1 .navbar-brand, .header-style-2 .navbar-brand {
+  margin-top: -5px !important;
+}
+
+.location.link-widget {
+  padding-left: 0;
+}
+
+
+
+.location.link-widget h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0;
+  margin: 0 0 10px 0;
 }
