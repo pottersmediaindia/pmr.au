@@ -6883,3 +6883,25 @@ img {
   padding: 0;
   margin: 0 0 10px 0;
 }
+
+.site-footer .link-widget ul a:hover, .site-footer .link-widget ul li:hover:before {
+  color: #988f58;
+}
+
+.details.section-title h2 {
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.details.section-title h2:after {
+  width: 0;
+}
+
+.details.section-title h2:before {
+  width: 0;
+}
+
+.service-grids.clearfix.products-sub .details {
+  padding-left: 0;
+  padding-top: 15px;
+}
